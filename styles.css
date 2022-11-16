@@ -400,7 +400,7 @@ footer img {
                 height: 100px;
             }
             .main__list {
-                display: flex;
+                display: block;
             }
             .main__list h2{
                 font-size: 22px;
