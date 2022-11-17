@@ -432,6 +432,76 @@ footer img {
                 width: 20px;
             }
         }
+        @media screen and (max-width: 550px) {
+            header {
+                width: 90%;
+            }
+            .main__text .main__text-desc{
+                width: 250px;
+            }
+            .main__text h1 {
+                font-size: 16px;
+            }
+            .main__text p {
+                font-size: 12px;
+                font-weight: 500;
+            }.main__text img {
+                width: 250px;
+                height: 130px;
+            }
+            .figure img{
+                width: calc(640px - 10%);
+                height: 100px;
+            }
+            .main__list h2{
+                font-size: 17px;
+                color: #078646;
+            }
+            .main__list p{
+                font-size: 14px;
+            }
+            .main__list img {
+                width: 300px;
+            }
+            .main__list li {
+                padding: 20px 0;
+            }
+            .main__transport {
+                /* padding: 40px 10%; */
+                display: block;
+                margin: 0 auto;
+            }
+            .main__transport img{
+                margin: 40px 8%;
+                width: 400px;
+                height: 250px;
+                border-radius: 25px;
+            }
+            .main__transport p{
+                width: 500px;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 19px;
+                padding: 0 40px;
+            }
+    
+            .main_pluses ol  {
+                width: 500px;
+                font-size: 18px;
+            }
+            .main_pluses ol li p {
+                font-size: 12px;
+            }
+            
+            .footer a {
+                font-size: 12px;
+                padding:  10px;
+                width: 150px;
+            }
+            footer img {
+                width: 20px;
+            }
+        }
         @media screen and (max-width: 425px) {
             header {
                 width: calc(100% );
