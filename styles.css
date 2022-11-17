@@ -215,9 +215,6 @@ footer img {
     background: #60ad5e;
 }
 
-@media screen () {
-    
-}
 @media screen and (max-width:1024px) {
     header {
         width: calc(100% - 50%);
