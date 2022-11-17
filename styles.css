@@ -215,6 +215,9 @@ footer img {
     background: #60ad5e;
 }
 
+@media screen () {
+    
+}
 @media screen and (max-width:1024px) {
     header {
         width: calc(100% - 50%);
@@ -226,6 +229,7 @@ footer img {
     header img {
         /* width: ; */
     }
+    
     .main__text .main__text-desc{
         width: 350px;
     }
@@ -291,6 +295,8 @@ footer img {
             padding: 5px 20px;
             transition: .3s;
             font-size: 14px;
+        }.figure {
+            display: block;
         }
         header img {
             /* width: ; */
@@ -374,7 +380,7 @@ footer img {
                 height: 130px;
             }
             .figure img{
-                width: 640px;
+                width: calc(640px - 10%);
                 height: 100px;
             }
             .main__list h2{
@@ -521,6 +527,9 @@ footer img {
             .flex {
                 justify-content: space-between;
                 text-align: center;
+            }
+            .figure {
+                display: none;
             }
         }
     }
