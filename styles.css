@@ -155,16 +155,23 @@ footer img {
 
 }
 
+.main__transport_ {
 
-.main__transport {
-    padding: 40px 20px;
     background: #E1E7FD;
+}
+.main__transport {
+    width: calc(100% - 100px);
+    padding: 40px 20px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+.main__transport-desc {
+
+}
 .main__transport img{
-    width: 600px;
+    width: 500px;
     height: 250px;
     border-radius: 50px;
 }
@@ -365,7 +372,7 @@ footer img {
             width: 20px;
         }
         /* 768 */
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: 670px) {
             .main__text .main__text-desc{
                 width: 250px;
             }
@@ -412,7 +419,7 @@ footer img {
                 font-size: 12px;
                 font-weight: 500;
                 line-height: 19px;
-                padding: 0 40px;
+                padding: 0;
             }
     
             .main_pluses ol  {
@@ -467,22 +474,24 @@ footer img {
                 padding: 20px 0;
             }
             .main__transport {
+                margin: 0 auto;
+                width: calc(100% - 50px);
                 /* padding: 40px 10%; */
                 display: block;
                 margin: 0 auto;
             }
             .main__transport img{
-                margin: 40px 8%;
-                width: 400px;
+                /* margin: 40px 8%; */
+                width: 300px;
                 height: 250px;
                 border-radius: 25px;
+                display: none;
             }
             .main__transport p{
-                width: 500px;
+                width: 300px;
                 font-size: 12px;
                 font-weight: 500;
                 line-height: 19px;
-                padding: 0 40px;
             }
     
             .main_pluses ol  {
@@ -562,18 +571,19 @@ footer img {
             .main__transport {
             }
             .main__transport img{
-                margin: 0 auto;
+                /* margin: 40px 8%; */
                 width: 300px;
-                height: 150px;
-                border-radius: 15px;
+                height: 250px;
+                border-radius: 25px;
+                display: none;
             }
             .main__transport p{
                 width: 300px;
                 font-size: 12px;
                 font-weight: 500;
-                line-height: 14px;
-                padding: 0;
+                line-height: 19px;
             }
+    
     
             .main_pluses ol  {
                 width: 300px;
