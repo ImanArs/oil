@@ -218,6 +218,8 @@ footer img {
 @media screen and (max-width:1024px) {
     header {
         width: calc(100% - 50%);
+    }.figure {
+        display: block;
     }
     header nav a{
         padding: 5px 20px;
@@ -288,12 +290,13 @@ footer img {
         header {
             width: calc(100% - 30%);
         }
+        .figure {
+            display: none;
+        }
         header nav a{
             padding: 5px 20px;
             transition: .3s;
             font-size: 14px;
-        }.figure {
-            display: block;
         }
         header img {
             /* width: ; */
